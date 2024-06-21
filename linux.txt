@@ -1,0 +1,311 @@
+    1  sudo apt update
+    2  sudo nano /etc/resolv.conf 
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt install gcc++
+    6  sudo apt install gcc
+    7  sudo apt install build-essentials
+    8  sudo apt install build-essential
+    9  sudo apt install gdb
+   10  init 0
+   11  gcc --version
+   12  cd "/home/rps/Desktop/C Demo/" && gcc first.c -o first && "/home/rps/Desktop/C Demo/"first
+   13  sudo su
+   14  tar xvfz node_exporter-1.7.0.linux-amd64.tar.gz 
+   15  cd node_exporter-1.7.0.linux-amd64/
+   16  sudo mv node_exporter /usr/local/bin/
+   17  sudo tee /etc/systemd/system/node_exporter.service<<EOF
+   18  [Unit]
+   19  Description=Node Exporter
+   20  After=network.target
+   21   
+   22  [Service]
+   23  User=rps
+   24  Group=rps
+   25  Type=simple
+   26  ExecStart=/usr/local/bin/node_exporter
+   27   
+   28  [Install]
+   29  WantedBy=multi-user.target
+   30  EOF
+   31  sudo systemctl daemon-reload
+   32  sudo systemctl start node_exporter
+   33  sudo systemctl enable node_exporter
+   34  sudo systemctl status node_exporter
+   35  sudo apt install gcc
+   36  sudo apt install git
+   37  sudo apt install make
+   38  sudo apt install vim
+   39  sudo apt install g++
+   40  sudo apt install gedit
+   41  sudo apt install cmake
+   42  sudo apt install g++
+   43  df -h
+   44  sudo apt update
+   45  sudo apt upgrade
+   46  sudo reboot
+   47  ls
+   48  mkdir Prabha
+   49  ls
+   50  cd Prabha
+   51  touch.txt
+   52  touch text.txt
+   53  ls
+   54  cd text
+   55  pwd 
+   56  mkdir prabhakar
+   57  ls
+   58  pwd
+   59  cd prabhakar
+   60  pwd
+   61  man
+   62  man ls
+   63  man cd
+   64  ls
+   65  ls 1
+   66  mkdir fruirs
+   67  mkdir fruits
+   68  cd fruits
+   69  pwd
+   70  rmdir
+   71  rmdir prabhakar
+   72  mkdir cricket
+   73  rmdir cricket
+   74  mkdir akshitha
+   75  ls
+   76  rmdir akshitha
+   77  ls
+   78  history
+   79  rmdir fruits
+   80  rm -rf fruits
+   81  ls
+   82  mv prabha
+   83  ls
+   84  mv prabhakar dir
+   85  mv prabha dir
+   86  rmdir fruits
+   87  rm -rf fruits
+   88  rm-rf fruits
+   89  ls
+   90  mv text.txt
+   91  mv myfile myfile.old
+   92  exit
+   93  history
+   94  mv myfile myfile.old
+   95  mkdir prabhakar
+   96  ls
+   97  mv text.txt
+   98  cd text1.txt
+   99  pwd text1.txt
+  100  ls
+  101  rmdir prabhakar
+  102  ls
+  103  pwd text2.txt
+  104  mv text1.txt
+  105  prabha
+  106  ls prabha
+  107  cd prabha
+  108  pwd prabha
+  109  mkdir prabha file1.txt
+  110  mkdir prabha file2.txt
+  111  mv prabha file2.txt
+  112  mv file1.txt file2.txt
+  113  mv file2.txt file1.txt
+  114  mv file2.txt prahakar
+  115  mv file1.txt prabhakar
+  116  cp file1.txt
+  117  cp file1.txt prabha
+  118  cat >file1.txt
+  119  history
+  120  sudo apt update
+  121  history
+  122  prabha
+  123  pwd prabha
+  124  cd prabha
+  125  prabha dir
+  126  ls-l
+  127  touvh filr1.txt
+  128  touch file1.txt
+  129  lsls
+  130  ls
+  131  pwd 
+  132  ls
+  133  cd prabha
+  134  cd prabhakar
+  135  touch prabhakar.txt
+  136  open Prabha
+  137  open prabhakar.txt
+  138  touch test
+  139  cp apple another apple
+  140  cp -r fruits
+  141  echo i am prabhakar
+  142  history
+  143  cd /Prabha
+  144  cd /prabha
+  145  cd ..
+  146  cd prabha
+  147  cd Prabha
+  148  cat sample.txt
+  149  ls
+  150  cat text.txt
+  151  open text.txt
+  152  cat text.txt
+  153  ls
+  154  history
+  155  history>linux.txt
+    1  sudo apt update
+    2  sudo nano /etc/resolv.conf 
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt install gcc++
+    6  sudo apt install gcc
+    7  sudo apt install build-essentials
+    8  sudo apt install build-essential
+    9  sudo apt install gdb
+   10  init 0
+   11  gcc --version
+   12  cd "/home/rps/Desktop/C Demo/" && gcc first.c -o first && "/home/rps/Desktop/C Demo/"first
+   13  sudo su
+   14  tar xvfz node_exporter-1.7.0.linux-amd64.tar.gz 
+   15  cd node_exporter-1.7.0.linux-amd64/
+   16  sudo mv node_exporter /usr/local/bin/
+   17  sudo tee /etc/systemd/system/node_exporter.service<<EOF
+   18  [Unit]
+   19  Description=Node Exporter
+   20  After=network.target
+   21   
+   22  [Service]
+   23  User=rps
+   24  Group=rps
+   25  Type=simple
+   26  ExecStart=/usr/local/bin/node_exporter
+   27   
+   28  [Install]
+   29  WantedBy=multi-user.target
+   30  EOF
+   31  sudo systemctl daemon-reload
+   32  sudo systemctl start node_exporter
+   33  sudo systemctl enable node_exporter
+   34  sudo systemctl status node_exporter
+   35  sudo apt install gcc
+   36  sudo apt install git
+   37  sudo apt install make
+   38  sudo apt install vim
+   39  sudo apt install g++
+   40  sudo apt install gedit
+   41  sudo apt install cmake
+   42  sudo apt install g++
+   43  df -h
+   44  sudo apt update
+   45  sudo apt upgrade
+   46  sudo reboot
+   47  ls
+   48  mkdir Prabha
+   49  ls
+   50  cd Prabha
+   51  touch.txt
+   52  touch text.txt
+   53  ls
+   54  cd text
+   55  pwd 
+   56  mkdir prabhakar
+   57  ls
+   58  pwd
+   59  cd prabhakar
+   60  pwd
+   61  man
+   62  man ls
+   63  man cd
+   64  ls
+   65  ls 1
+   66  mkdir fruirs
+   67  mkdir fruits
+   68  cd fruits
+   69  pwd
+   70  rmdir
+   71  rmdir prabhakar
+   72  mkdir cricket
+   73  rmdir cricket
+   74  mkdir akshitha
+   75  ls
+   76  rmdir akshitha
+   77  ls
+   78  history
+   79  rmdir fruits
+   80  rm -rf fruits
+   81  ls
+   82  mv prabha
+   83  ls
+   84  mv prabhakar dir
+   85  mv prabha dir
+   86  rmdir fruits
+   87  rm -rf fruits
+   88  rm-rf fruits
+   89  ls
+   90  mv text.txt
+   91  mv myfile myfile.old
+   92  exit
+   93  history
+   94  mv myfile myfile.old
+   95  mkdir prabhakar
+   96  ls
+   97  mv text.txt
+   98  cd text1.txt
+   99  pwd text1.txt
+  100  ls
+  101  rmdir prabhakar
+  102  ls
+  103  pwd text2.txt
+  104  mv text1.txt
+  105  prabha
+  106  ls prabha
+  107  cd prabha
+  108  pwd prabha
+  109  mkdir prabha file1.txt
+  110  mkdir prabha file2.txt
+  111  mv prabha file2.txt
+  112  mv file1.txt file2.txt
+  113  mv file2.txt file1.txt
+  114  mv file2.txt prahakar
+  115  mv file1.txt prabhakar
+  116  cp file1.txt
+  117  cp file1.txt prabha
+  118  cat >file1.txt
+  119  history
+  120  sudo apt update
+  121  history
+  122  prabha
+  123  pwd prabha
+  124  cd prabha
+  125  prabha dir
+  126  ls-l
+  127  touvh filr1.txt
+  128  touch file1.txt
+  129  lsls
+  130  ls
+  131  pwd 
+  132  ls
+  133  cd prabha
+  134  cd prabhakar
+  135  touch prabhakar.txt
+  136  open Prabha
+  137  open prabhakar.txt
+  138  touch test
+  139  cp apple another apple
+  140  cp -r fruits
+  141  echo i am prabhakar
+  142  history
+  143  cd /Prabha
+  144  cd /prabha
+  145  cd ..
+  146  cd prabha
+  147  cd Prabha
+  148  cat sample.txt
+  149  ls
+  150  cat text.txt
+  151  open text.txt
+  152  cat text.txt
+  153  ls
+  154  history
+  155  history>linux.txt
+  156  history>>linux.txt
